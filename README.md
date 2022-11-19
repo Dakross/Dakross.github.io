@@ -1,4 +1,4 @@
-<img src="/Imagenes/logo_black_utem.png" height="50" width="240" background="#e8e8e8" padding="2px" border= "5px solid rgb(255,255,255)">
+<img src="/Imagenes/logoUtem.png" height="50" width="240" background="#e8e8e8" padding="2px">
 
 ## Proyecto Mi Baño ##
 
