@@ -36,8 +36,7 @@
 
 .direccion-baño{
     font-size: 12px;
-    display: flex;
-    justify-content: center;
+    float: left;
 }
 
 .reportes{
@@ -92,4 +91,22 @@
     justify-content: center;
     user-select: none;
     cursor: pointer;
+}
+
+.listado-baños{
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.problemas-baños{
+    font-size: 12px;
+    padding-left: 30px;
+    float: left;
+}
+
+.estados-baños{
+    font-size: 12px;
+    padding-left: 30px;
+    float: left;
 }
