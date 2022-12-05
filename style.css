@@ -1,9 +1,17 @@
+body{
+    background-color: #f4f7f7;
+}
+
 .header{
     height: auto;
     overflow: hidden;
     background-color: rgb(255, 255, 255);
     border-bottom: #727272 1px solid;
     padding-bottom: 3px;
+    box-shadow: 1rem .5rem 1rem rgba(0, 0, 0, .15);
+    border: 1px solid #F5F8FD;
+    background-color: #F5F8FD;
+    border-radius: 20px;
 }
 
 .logo{
@@ -23,6 +31,7 @@
     float: left;
     user-select: none;
     cursor: pointer;
+    padding-left: 10px;
     padding-top: 8px;
 }
 
@@ -36,7 +45,8 @@
 
 .direccion-baño{
     font-size: 12px;
-    float: left;
+    display: flex;
+    justify-content: center;
 }
 
 .reportes{
@@ -97,16 +107,54 @@
     font-size: 20px;
     display: flex;
     justify-content: center;
+    color: #021A8E
 }
 
 .problemas-baños{
-    font-size: 12px;
-    padding-left: 30px;
-    float: left;
+    font-size: 20px;
+    padding-left: 20px;
+    color: #2DD69C;
+    font-weight: bold;
+}
+
+.direcciones-baño{
+    font-size: 20px;
 }
 
 .estados-baños{
-    font-size: 12px;
+    padding-top: 5px;
+    width: 25px;
+    user-select: none;
+    cursor: pointer;
+    padding-left: 35px;
+}
+
+.listado{
+    display: flex;
+    justify-content: center;
+    box-shadow: 1rem .5rem 1rem rgba(0, 0, 0, .15);
+    border: 1px solid #F5F8FD;
+    background-color: #F5F8FD;
+    border-radius: 20px;
+}
+
+.ubicacion{
+    padding-left: 80px;
+    color: #021A8E
+}
+
+.problemas{
     padding-left: 30px;
-    float: left;
+    color: #021A8E
+}
+
+.detalles{
+    padding-left: 20px;
+    color: #021A8E
+}
+
+.funcionario{
+    color: #2DD69C;
+    font-size: 18px;
+    font-weight: bold;
 }
