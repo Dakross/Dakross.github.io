@@ -1,0 +1,112 @@
+#cabezera{
+    height: auto;
+    overflow: hidden;
+    background-color: rgb(255, 255, 255);
+    border-bottom: #727272 1px solid;
+    padding-bottom: 3px;
+    align-items: baseline;
+}
+
+#menu{
+    min-height: 17px;
+    max-height: 28px;
+    float: left;
+    user-select: none;
+    cursor: pointer;
+    padding-top: 8px;
+}
+
+#logo1{
+    min-height: 30px;
+    min-width: 135px;
+    max-height: 50px;
+    max-width: 200px;
+    user-select: none;;
+    cursor: pointer;
+    padding-left: 15px;
+    padding-top: 3px;
+}
+
+#avatar{
+    min-height: 35px;
+    max-width: 55px;
+    float: right;
+    user-select: none;
+    cursor: pointer;
+}
+
+#menu2{
+    min-height: 17px;
+    max-height: 28px;
+    user-select: none;
+    cursor: pointer;
+    padding-top: 8px;
+}
+
+#cuerpo{
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 0px 10px 0px #333 inset;
+    padding: 7px;
+}
+
+
+h1{
+    color: rgb(89, 201, 163);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#perfil{
+    text-align: center;
+    height: 60vh;
+}
+
+#foto{
+    height: 45vh;
+    image-rendering: optimizeQuality;
+}
+
+#nombre-usuario{
+    color: rgb(22, 56, 168);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#categoria-usuario{
+    color: rgb(22, 56, 1680,0.65);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.informacion{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    text-align: left;
+    padding-left: 1vh;
+    padding-bottom: 5vh;
+}
+
+.contenido{
+    color: rgb(22, 56, 168);
+    font-family: Arial, Helvetica, sans-serif;
+    padding-right: 10px;
+}
+
+.datos{
+    color: rgb(0, 0, 0,0.65);
+    font-family: Arial, Helvetica, sans-serif;
+    box-shadow: 0px 0px 10px 0px rgb(51, 51, 51,0.35) inset;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    width: 25vh;
+}
+
+.editar{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 5px;
+}
+
+
+
+

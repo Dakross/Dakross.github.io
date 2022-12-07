@@ -1,0 +1,96 @@
+.header{
+    height: auto;
+    overflow: hidden;
+    background-color: rgb(255, 255, 255);
+    border-bottom: #727272 1px solid;
+    padding-bottom: 3px;
+}
+
+.logo{
+    min-height: 30px;
+    min-width: 135px;
+    max-height: 50px;
+    max-width: 200px;
+    user-select: none;
+    cursor: pointer;
+    padding-left: 15px;
+    padding-top: 3px;
+}
+
+.menu{
+    min-height: 17px;
+    max-height: 28px;
+    float: left;
+    user-select: none;
+    cursor: pointer;
+    padding-top: 8px;
+}
+
+.profile{
+    min-height: 35px;
+    max-width: 55px;
+    float: right;
+    user-select: none;
+    cursor: pointer;
+}
+
+.direccion-baño{
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+}
+
+.reportes{
+    padding-top: 20px;
+    display:flex;
+    justify-content: center;
+}
+
+.confort{
+    padding-left: 8px;
+    display:inline-flex;
+    justify-content: center;
+    user-select: none;
+    cursor: pointer;
+}
+
+.nova{
+    padding-left: 8px;
+    display:inline-flex;
+    justify-content: center;
+    user-select: none;
+    cursor: pointer;
+}
+
+.water{
+    padding-left: 8px;
+    display:inline-flex;
+    justify-content: center;
+    user-select: none;
+    cursor: pointer;
+}
+
+.jabon{
+    padding-left: 8px;
+    display:inline-flex;
+    justify-content: center;
+    user-select: none;
+    cursor: pointer;
+}
+
+.problema{
+    padding-left: 8px;
+    display:inline-flex;
+    justify-content: center;
+    user-select: none;
+    cursor: pointer;
+}
+
+.enviar{
+    padding-top: 45px;
+    display:flex;
+    justify-content: center;
+    user-select: none;
+    cursor: pointer;
+}
+

@@ -1,0 +1,246 @@
+body{
+    background-color: #f4f7f7;
+}
+
+h4{
+    color: #2DD69C;
+    font-size: 23px;
+    font-weight: bold;
+}
+
+.header{
+    height: auto;
+    overflow: hidden;
+    background-color: rgb(255, 255, 255);
+    border-bottom: #727272 1px solid;
+    padding-bottom: 3px;
+    box-shadow: 1rem .5rem 1rem rgba(0, 0, 0, .15);
+    border: 1px solid #F5F8FD;
+    background-color: #F5F8FD;
+    border-radius: 20px;
+}
+
+.logo{
+    min-height: 30px;
+    min-width: 135px;
+    max-height: 50px;
+    max-width: 200px;
+    user-select: none;
+    cursor: pointer;
+    padding-left: 15px;
+    padding-top: 3px;
+}
+
+.menu{
+    min-height: 17px;
+    max-height: 28px;
+    float: left;
+    user-select: none;
+    cursor: pointer;
+    padding-left: 10px;
+    padding-top: 8px;
+}
+
+.profile{
+    min-height: 35px;
+    max-width: 55px;
+    float: right;
+    user-select: none;
+    cursor: pointer;
+}
+
+.direccion-baño{
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+}
+
+.reportes{
+    padding-top: 20px;
+    display:flex;
+    justify-content: center;
+}
+
+.confort{
+    padding-left: 8px;
+    display:inline-flex;
+    justify-content: center;
+    user-select: none;
+    cursor: pointer;
+}
+
+.nova{
+    padding-left: 8px;
+    display:inline-flex;
+    justify-content: center;
+    user-select: none;
+    cursor: pointer;
+}
+
+.water{
+    padding-left: 8px;
+    display:inline-flex;
+    justify-content: center;
+    user-select: none;
+    cursor: pointer;
+}
+
+.jabon{
+    padding-left: 8px;
+    display:inline-flex;
+    justify-content: center;
+    user-select: none;
+    cursor: pointer;
+}
+
+.problema{
+    padding-left: 8px;
+    display:inline-flex;
+    justify-content: center;
+    user-select: none;
+    cursor: pointer;
+}
+
+.enviar{
+    padding-top: 45px;
+    display:flex;
+    justify-content: center;
+    user-select: none;
+    cursor: pointer;
+}
+
+.listado-baños{
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    color: #021A8E
+}
+
+.problemas-baños{
+    font-size: 20px;
+    padding-left: 20px;
+    color: #2DD69C;
+    font-weight: bold;
+}
+
+.direcciones-baño{
+    font-size: 20px;
+}
+
+.estados-baños{
+    padding-top: 5px;
+    width: 25px;
+    user-select: none;
+    cursor: pointer;
+    padding-left: 35px;
+}
+
+.listado{
+    display: flex;
+    justify-content: center;
+    box-shadow: 1rem .5rem 1rem rgba(0, 0, 0, .15);
+    border: 1px solid #F5F8FD;
+    background-color: #F5F8FD;
+    border-radius: 20px;
+}
+
+.ubicacion{
+    padding-left: 80px;
+    color: #021A8E
+}
+
+.problemas{
+    padding-left: 30px;
+    color: #021A8E
+}
+
+.detalles{
+    padding-left: 20px;
+    color: #021A8E
+}
+
+.funcionario{
+    color: #2DD69C;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.card-container{
+    display: flex;
+    margin: 30px 10px;
+    box-shadow: 1rem .5rem 1rem rgba(0, 0, 0, .15);
+    border: 1px solid #F5F8FD;
+    background-color: #F5F8FD;
+    border-radius: 20px;
+}
+
+.nPerfil {
+    padding-left: 30px;
+}
+
+.alumno {
+    width: 200px;
+    height: 200px;
+}
+
+.nombre-a{
+    text-align: center;
+    margin: 5px 50px;
+}
+
+.datos tr{
+    display: table;
+    padding: 40px;
+    /* background: #fff; */
+}
+
+.azul{
+    color: #021A8E;
+}
+
+.dataU{
+    font-size: 12px;
+    font-weight: normal;
+    margin: 0px 20px 5px 10px;
+}
+
+.fila{
+    font-size: 12px !important;
+    border-bottom: 1px solid rgba(230, 230, 230, 0.7);
+    border-top: 0px;
+    
+}
+
+.YoN{
+    user-select: none;
+    cursor: pointer;
+}
+/* .fila:hover{
+    background-color: #17a2b8;
+} */
+
+.boton-sesion{
+    user-select: none;
+    cursor: pointer;
+}
+
+.boton-sesion{
+    display: flex;
+    justify-content: center;
+}
+.sesion{
+    padding-top: 10px;
+    width: 200px;
+    height: 35px;
+    box-shadow: 1rem .5rem 1rem rgba(0, 0, 0, .15);
+    border: 3px solid #2DD69C;
+    background-color: #F5F8FD;
+    border-radius: 20px;
+    text-align: center;
+    color: #021A8E;
+}
+
+.inicio{
+    display: flex;
+    justify-content: center;
+}

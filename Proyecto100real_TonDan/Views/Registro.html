@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Styles/Registro.css">
+    <link rel="shortcut icon" href="./Imagenes/logocolor.png" type="image/x-icon">
+    <title>Registro</title>
+</head>
+<body>
+    <div class="header">
+        <a href="/Views/login.html"><img class="logo" src="./Imagenes/Mibaño.png"></a>
+    </div>
+    <div class="container">
+        <Form class="text-center bg-dark" action="registro.php" method="POST">
+            <div class="formulario"><br>
+
+                <label for="InputNombre" class="label1 blanco">Nombre Completo</label>
+                <input type="text" name="Nombre" class="form-dato bg light" autocomplete="off">
+
+            </div>
+            <div class="formulario">
+
+                <label for="InputEmail" class="label1 blanco">Correo institucional</label>
+                <input type="text" name="Correo" class="form-dato1 bg light" autocomplete="off">
+
+            </div>
+            <div class="formulario">
+                <label for="InputPassword" class="label1 blanco">Contraseña</label>
+                <input type="password" name="Clave" class="form-dato bg light">
+            </div>
+            <div class="formulario">
+                <label for="InputPassword" class="label1 blanco">Confirme Contraseña</label>
+                <input type="password" name="password2" class="form-dato bg light">
+            </div>
+            <button id="registrar" type="submit" class="btn btn-success">Registrar</button>
+        </Form></br>
+    </div>
+    <Footer class="footer">
+        <img src="./Imagenes/BigCutEnterprise.png" alt="" class="Marca">
+    </Footer>
+</body>
+</html>
