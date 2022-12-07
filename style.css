@@ -220,14 +220,12 @@ h4{
 } */
 
 .boton-sesion{
+    display: flex;
+    justify-content: center;
     user-select: none;
     cursor: pointer;
 }
 
-.boton-sesion{
-    display: flex;
-    justify-content: center;
-}
 .sesion{
     padding-top: 10px;
     width: 200px;
@@ -240,8 +238,65 @@ h4{
     color: #021A8E;
 }
 
-.inicio{
+.alumno-sesion{
+    display: flex;
+    justify-content: center;
+    max-width: 150px;
+    max-height: 150px;
+}
+
+.funcionario-sesion{
+    display: flex;
+    justify-content: center;
+    max-width: 150px;
+    max-height: 150px;
+}
+
+#btnControl {
+    display: none;
+}
+
+#btnControl:checked + label > img {
+    background-color: #22a333;
+    border-radius: 20%;
+}
+
+#btnControl2 {
+    display: none;
+}
+
+#btnControl2:checked + label > img {
+    background-color: #22a333;
+    border-radius: 20%;
+}
+
+#btnControl3 {
+    display: none;
+}
+
+#btnControl3:checked + label > img {
+    background-color: #22a333;
+    border-radius: 20%;
+}
+
+#btnControl4 {
+    display: none;
+}
+
+#btnControl4:checked + label > img {
+    background-color: #22a333;
+    border-radius: 20%;
+}
+#btnControl5 {
+    display: none;
+}
+
+#btnControl5:checked + label > img {
+    background-color: #22a333;
+    border-radius: 20%;
+}
+
+.lector{
     display: flex;
     justify-content: center;
 }
-
