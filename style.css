@@ -218,3 +218,30 @@ h4{
 /* .fila:hover{
     background-color: #17a2b8;
 } */
+
+.boton-sesion{
+    user-select: none;
+    cursor: pointer;
+}
+
+.boton-sesion{
+    display: flex;
+    justify-content: center;
+}
+.sesion{
+    padding-top: 10px;
+    width: 200px;
+    height: 35px;
+    box-shadow: 1rem .5rem 1rem rgba(0, 0, 0, .15);
+    border: 3px solid #2DD69C;
+    background-color: #F5F8FD;
+    border-radius: 20px;
+    text-align: center;
+    color: #021A8E;
+}
+
+.inicio{
+    display: flex;
+    justify-content: center;
+}
+
